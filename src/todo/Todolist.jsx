@@ -44,6 +44,8 @@ function Todolist() {
                             removeTask={removeTask}
                         />
                     )
+                } else {
+                    return null
                 }
             })}
         </div>
@@ -59,6 +61,8 @@ function Todolist() {
                         removeTask={removeTask}
                     />
                 )
+            } else {
+                return null
             }
         })}
     </div>
