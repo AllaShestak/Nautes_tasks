@@ -1,4 +1,5 @@
 import React from "react";
+import "./todoStyle.css"
 
 
 function ToDo({todo, toggleTask, removeTask}) {
